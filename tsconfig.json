@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2020", "DOM"],
+    "outDir": "dist",
+    "module": "CommonJS",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "declaration": false
+  },
+  "include": ["*", "src/**/*", "__tests__/**/*", "resources/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

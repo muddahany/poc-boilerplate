@@ -1,0 +1,16 @@
+node_modules
+.serverless
+.webpack
+.terraform
+.vscode
+.nxcache
+*.zip
+*.log
+.DS_Store
+serverless-output.json
+.env
+.idea
+.dynamodb
+.dynamodb-data
+dist
+__tests__/output/**

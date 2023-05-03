@@ -1,0 +1,48 @@
+{
+  "name": "poc-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "yarn serverless deploy",
+    "build": "yarn serverless package",
+    "lint": "eslint ./src --ext .ts",
+    "start": "yarn serverless offline start --stage development ",
+    "serverless": "$(npm bin)/serverless"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.325.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@serverless/typescript": "3.25.0",
+    "@types/aws-lambda": "8.10.72",
+    "@types/node": "18.11.18",
+    "@types/uuid": "9.0.1",
+    "@typescript-eslint/eslint-plugin": "5.31.0",
+    "@typescript-eslint/parser": "5.31.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "7.12.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "2.3.0",
+    "eslint-plugin-compat": "^3.8.0",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "prettier": "2.1.2",
+    "serverless": "3.26.0",
+    "serverless-offline": "12.0.3",
+    "serverless-webpack": "5.11.0",
+    "ts-loader": "8.0.17",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.4",
+    "webpack": "5.74.0",
+    "webpack-node-externals": "2.5.2"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin"
+  ],
+  "license": "UNLICENSED"
+}
