@@ -1,2 +1,1 @@
 # poc-boilerplate
-# poc-boilerplate
